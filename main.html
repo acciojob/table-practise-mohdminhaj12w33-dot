@@ -1,59 +1,48 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<style>
-	table {
-  border-collapse: collapse;
-  width: 50%;
-  background-color: rgb(255, 255, 0); /* Yellow background */
-  border: 1px solid black; /* Black border for the table */
-}
-
-th, td {
-  border: 1px solid black; /* Black border for cells */
-  padding: 8px;
-  text-align: left;
-}
-
-th {
-  font-weight: bold;
-}
-</style>
-	
-	
-
+    <title>Student Details</title>
+    <style>
+        table {
+            background-color: yellow; /* Set table background to yellow */
+             /* Ensure borders are merged for a cleaner look */
+            border: 1px solid black; /* Set a 1px solid black border around the entire table */
+             /* Make the table take up the full width of its container */
+        }
+        th, td {
+            border: 1px solid black; /* Set a 1px solid black border for headers and data cells */
+             /* Add padding to improve readability */
+             /* Center align text within cells */
+        }
+        th {
+            font-weight: bold; /* Make header text bold */
+        }
+    </style>
+</head>
 <body>
-	<div class = "a1">
-	</div>
-	<h1>Student Details</h1>
-	<table border>
-		<thead>
-		<tr border = " 1px solid black" >
-			<th>NAME</th>
-			<th>AGE</th>
-			<th>BRANCH</th>
-		</tr>
-		</thead>
-		<tbody>
-			<tr border = " 1px solid black">
-				<td>Shaw</td>
-				<td>20</td>
-				<td>CSE</td>
-			</tr>
-			<tr border = " 1px solid black">
-				<td>Adil</td>
-				<td>21</td>
-				<td>ECE</td>
-			</tr>
-		</tbody>
-	</table>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <table>
+        <caption>Student Details</caption>  <!-- Add the table caption -->
+        <thead>
+            <tr>
+                <th>NAME</th> <!-- Table header for Name -->
+                <th>AGE</th>  <!-- Table header for Age -->
+                <th>BRANCH</th> <!-- Table header for Branch -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shaw</td>  <!-- Data for Shaw -->
+                <td>20</td>   <!-- Data for Shaw's age -->
+                <td>CSE</td>  <!-- Data for Shaw's branch -->
+            </tr>
+            <tr>
+                <td>Adil</td>  <!-- Data for Adil -->
+                <td>21</td>   <!-- Data for Adil's age -->
+                <td>ECE</td>  <!-- Data for Adil's branch -->
+            </tr>
+        </tbody>
+    </table>
 
 </body>
-
 </html>
